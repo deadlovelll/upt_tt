@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Example</title>
+</head>
+<body>
+    <h1>Menu Example</h1>
+
+    <!-- Вызов вашего пользовательского тега для отрисовки меню -->
+    {% load menu_tags %}  <!-- Убедитесь, что вы загружаете ваши теги -->
+    
+    {% draw_menu 'main_menu' %}  <!-- Отрисовка меню по названию -->
+
+    <!-- Пример контента страницы -->
+    <p>Welcome to the home page!</p>
+</body>
+</html>
